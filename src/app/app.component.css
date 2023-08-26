@@ -1,0 +1,156 @@
+header {
+    /*background-color: #586B5E; */
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+body {
+    /*background-color: #586B5E; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.head {
+    display: inline-block;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.title {
+   /* display: inline-block; */
+    margin: auto;
+    display: flex;
+   /* column-gap: 20px; */
+   /* text-align: center; */
+    width: 30%;
+    border: 5px solid #006100;
+}
+
+.titleContent {
+   /* display:inline-block; */
+    text-align:left;
+    padding-left: 70px;
+}
+
+.pickdate {
+    text-align:left;
+}
+
+.centeredHeader {
+    margin: auto;
+   /* display: inline-block;
+    text-align: center; */
+    width: 100%
+}
+
+.headerIcon {
+    height:85px;
+    width: auto;  /*maintain aspect ratio*/
+    padding-left: 70px;
+}
+
+.centered {
+    display: inline-block;
+    text-align: center;
+    width: 100%
+}
+
+.centeredTable {
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    margin-left: 100px; 
+}
+
+.centeredSpinner {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+mat-divider {
+    width: 100%;
+}
+
+.center {
+    /*border: 5px solid #FFFF00; */
+    text-align: left;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+ol { 
+    list-style-type:none;
+    line-height:50%;
+    text-align: left;
+}
+
+.ordererdList {
+    display: table;
+}
+
+.lightText {
+    color: white;
+}
+
+.darkText {
+    color: black;
+}
+
+.coverageDate {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    /*color: rgb(241, 242, 233); */
+    background-color: rgb(100, 174, 205)
+}
+
+.listWrapper {
+    /*text-align: center; */
+    padding-bottom: 20px;
+    /*width: 500px; 
+    max-height:200px; 
+    overflow-y:auto;  */
+}
+.listWrapper ol {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    /*padding: 1px; */
+    /* For IE, the outcast */
+    zoom:1;
+    /*display: inline; */
+}
+
+.podDetails {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    border: 2px solid #049304;
+}
